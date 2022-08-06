@@ -13,6 +13,6 @@ module.exports = function check(str, bracketsConfig) {
 
     newStr = str.length;
   }
-
+  
   return newStr == 0 ? true : false;
 }
